@@ -1,0 +1,59 @@
+.ContainerBlog
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+  height:200px;
+  border : darkgrey 1px solid;
+  min-width:  400px;
+}
+
+.ContainerTitre
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: darkgrey 1px solid;
+  height:20%;
+  padding-left : 0.5em;
+  padding-right: 0.5em;
+}
+.ContainerMessage {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+  padding : 5px 2px 2px 2px;
+  text-align:justify ;
+}
+.ContainerAction
+{
+  display: flex;
+  justify-content: baseline;
+  padding-top :2px;
+  border-top: darkgrey 1px solid;
+  padding-left : 0.5em;
+  padding-right: 0.5em;
+}
+.ElementTitre{
+
+}
+.ElementTitre:nth-child(1)
+{
+  padding-top: 10px;
+  text-align : left;
+  flex:1;
+}
+.ElementTitre:nth-child(2)
+{
+  text-align: right;
+  flex:1;
+
+}
+.ElementAction
+{
+
+}
+.ElementAction:nth-child(1)
+{
+  margin-right: 2px;
+}
